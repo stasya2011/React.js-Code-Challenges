@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
+// https://dog.ceo/api/breeds/image/random
 import "./App.css";
-import FormValidator from "./03-form-validator/FormValidator";
+import DogPics from "./04-dog-pics/DogPics";
 
 function App() {
   return (
     <div className="App">
-      <FormValidator />
+      <DogPics />
     </div>
   );
 }
