@@ -1,10 +1,10 @@
 // https://dog.ceo/api/breeds/image/random
 import "./App.css";
-import ColorPicker from "./07-color-picker/ColorPicker";
+import PixelArt from "./08-pixel-art/PixelArt";
 function App() {
   return (
     <div className="App">
-      <ColorPicker />
+      <PixelArt />
     </div>
   );
 }
