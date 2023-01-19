@@ -1,11 +1,11 @@
 // https://dog.ceo/api/breeds/image/random
 import "./App.css";
-import DogPics from "./04-dog-pics/DogPics";
+import ScoreKeeper from "./05-score-keeper/ScoreKeeper";
 
 function App() {
   return (
     <div className="App">
-      <DogPics />
+      <ScoreKeeper />
     </div>
   );
 }
