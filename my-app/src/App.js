@@ -1,11 +1,11 @@
 // https://dog.ceo/api/breeds/image/random
 import "./App.css";
-import SimpleCalculator from "./09-simple-calculator/SimpleCalculator";
+import FocusInput from "./10-focus-input/FocusInput";
 
 function App() {
   return (
     <div className="App">
-      <SimpleCalculator />
+      <FocusInput />
     </div>
   );
 }
