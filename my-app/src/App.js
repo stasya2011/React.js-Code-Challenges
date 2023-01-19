@@ -1,10 +1,11 @@
 // https://dog.ceo/api/breeds/image/random
 import "./App.css";
-import PixelArt from "./08-pixel-art/PixelArt";
+import SimpleCalculator from "./09-simple-calculator/SimpleCalculator";
+
 function App() {
   return (
     <div className="App">
-      <PixelArt />
+      <SimpleCalculator />
     </div>
   );
 }
