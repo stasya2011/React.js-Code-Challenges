@@ -1,11 +1,11 @@
 // https://dog.ceo/api/breeds/image/random
 import "./App.css";
-import ScoreKeeper from "./05-score-keeper/ScoreKeeper";
+import ToggleWindowEvent from "./06-add-window-event/ToggleWindowEvent";
 
 function App() {
   return (
     <div className="App">
-      <ScoreKeeper />
+      <ToggleWindowEvent />
     </div>
   );
 }
