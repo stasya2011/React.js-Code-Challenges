@@ -1,11 +1,10 @@
 // https://dog.ceo/api/breeds/image/random
-import "./App.css";
-import FocusInput from "./10-focus-input/FocusInput";
+import ColorButton from "./12/ColorButton";
 
 function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <ColorButton />
     </div>
   );
 }
