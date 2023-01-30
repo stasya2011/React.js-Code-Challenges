@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 // SGeleisha2011201515
 //12061992Stasya!
+export function replaceCamelWithSpaces(colorName) {
+  const newString = colorName.replace(/\B([A-Z])\B/g, ` $1`);
+  console.log(newString);
+  return newString;
+}
+
+replaceCamelWithSpaces("MidnightBlue");
 const ColorButton = () => {
   const [color, setColor] = useState("red");
   const [isDisabled, setDis] = useState(false);
