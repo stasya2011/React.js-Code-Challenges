@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// SGeleisha2011201515
-//12061992Stasya!
+
 export function replaceCamelWithSpaces(colorName) {
   const newString = colorName.replace(/\B([A-Z])\B/g, ` $1`);
   console.log(newString);
