@@ -19,7 +19,7 @@ const ColorButton = () => {
       <button
         disabled={isDisabled}
         onClick={() => setColor(() => (color === "blue" ? "red" : "blue"))}
-        style={{ backgroundColor: color, width: 200 }}
+        style={{ backgroundColor: isDisabled ? "gray" : color, width: 200 }}
       >
         Change to {color === "blue" ? "red" : "blue"}
       </button>
